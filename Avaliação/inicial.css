@@ -2,8 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
+
 .cabecalho {
-    background-color: rgb(198, 154, 204);
+    background-color: green;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -18,103 +19,223 @@
 h2 {
     margin-left: 20px;
 }
-h3{
-    color: rgb(65, 17, 105);
+
+h3 {
+    color: rgb(244, 242, 247);
 }
-h4{
+
+h4 {
     color: white;
-    font-size:xx-large;
+    font-size: xx-large;
     margin-top: 100px;
     margin-left: 150px;
 }
-h5{
+
+h5 {
     color: white;
-    font-size:xxx-large;
+    font-size: xxx-large;
     margin-top: 100px;
     margin-left: 150px;
 }
+
 .titulo {
     display: flex;
     align-items: center;
     margin-left: 20px;
     color: white;
 }
-.titulo img{
+
+.titulo img {
     width: 50px;
     height: auto;
 }
+
 button {
-    background-color: rgb(64, 12, 85);
+    background-color: rgb(3, 37, 3);
     color: white;
     width: 90px;
     height: 30px;
     border: none;
 }
-button:hover{
-    background-color: rgb(64, 12, 85);
+
+button:hover {
+    background-color: rgb(3, 37, 3);
     color: white;
     width: 100px;
     height: 40px;
     border: 5px;
     box-shadow: 3px 3px 3px white;
 }
-.fundo img{
+
+.fundo img {
     margin-top: 15px;
     height: 800px;
     width: 100%;
 }
-.bem{
+
+.bem {
     text-align: center;
-    color: white; 
+    color: rgb(80, 17, 17);
 }
-.banner{
+
+.banner {
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
-.banner img{
+
+.banner img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.texto{
+
+.texto {
     position: absolute;
-    top: 120px;
+    top: 100px;
     margin-left: 15px;
-    color: white;
+    color: green;
+
+
+
+
 }
-.texto h5{
-    width: 380px;
+
+.fundotexto {
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+
+
 }
-.texto p{
+
+.texto h5 {
     width: 380px;
+    color: green;
+    position: relative;
+}
+
+.texto p {
+    width: 300px;
     margin-top: 10px;
     margin-left: 150px;
-    color: rgb(156, 154, 154);
+    color: green;
+    font-size: large;
+    position: relative;
 }
-h6{
+
+h6 {
     color: rgb(105, 13, 105);
     font-size: large;
     margin-left: 170px;
     margin-top: 20px;
 }
-.universo h1{
-    font-size: xxx-large;
-    width: 500px;
-    margin-left: 170px;
+
+.subparte h1 {
+    font-size: xx-large;
+    margin-left: 850px;
 }
-.universo h2{
-    font-size: xxx-large;
-    width: 430px;
-    margin-left: 170px;
-    color: rgb(100, 16, 100);
-}
-.maior{
+
+.campeonatos {
     display: flex;
-    
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 10px;
 }
-.maior p {
-    margin-left: 400px;
-    width: 500px;
-    color: gray;
+
+.campeonatos img {
+    width: 300px;
+    height: 180px;
+}
+
+.titulo1 {
+    color: white;
+    background-color: green;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    height: 250px;
+}
+.titulo1:hover {
+    color: white;
+    background-color: green;
+    width: 310px;
+    height: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 3px 5px 3px rgb(78, 236, 78);
+}
+
+.titulo2 {
+    color: white;
+    background-color: green;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    height: 250px;
+    margin-left: 120px;
+}
+
+.titulo2:hover {
+    color: white;
+    background-color: green;
+    width: 310px;
+    height: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 3px 5px 3px rgb(78, 236, 78);
+}
+
+.titulo3 {
+    color: white;
+    background-color: green;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    height: 250px;
+    margin-left: 120px;
+}
+
+.titulo3:hover {
+    color: white;
+    background-color: green;
+    width: 310px;
+    height: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 3px 5px 3px rgb(78, 236, 78);
+}
+
+.titulo4 {
+    color: white;
+    background-color: green;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    height: 250px;
+    margin-left: 120px;
+}
+
+.titulo4:hover {
+    color: white;
+    background-color: green;
+    width: 310px;
+    height: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 3px 5px 3px rgb(78, 236, 78);
+}
+.elenco{
+    font-size: large;
+    margin-left: 800px;
+    margin-top:20px;
 }
